@@ -7,24 +7,24 @@
     <title>My Landing Page</title>
 </head>
 <body>
-    <div class="hero-container">
+    <div class="hero-container padded">
         <div class="header">
-            <div>Header Logo</div>
-            <ul>
-                <li><a>header link one</a></li>
-                <li><a>header link two</a></li>
-                <li><a>header link three</a></li>
+            <div class="header-logo">Header Logo</div>
+            <ul class="link-container">
+                <li class="header-link-container"><a class="header-link">header link one</a></li>
+                <li class="header-link-container"><a class="header-link">header link two</a></li>
+                <li class="header-link-container"><a class="header-link">header link three</a></li>
             </ul>
         </div>
-        <div class="hero-info">
+        <div class="hero-info padded">
             <div class="website-info">
-                <h1>
+                <div class="hero-main-text">
                     This website is awesome
-                </h1>
-                <p>
+                </div>
+                <div class="hero-secondary-text">
                     This website has some subtext that goes here under the main title. It's a smaller
                     font and the color is lower contrast
-                </p>
+                </div>
                 <button class="signup">
                     Sign up
                 </button>
@@ -34,7 +34,7 @@
             </div>
         </div>
     </div>
-    <div class="info-container">
+    <div class="info-container padded">
         <h1>Some random information.</h1>
         <ul class="info-list">
             <li class="info-item">
@@ -55,7 +55,7 @@
             </li>
         </ul>
     </div>
-    <div class="quote-container">
+    <div class="quote-container padded">
         <p class="quote-text">
             This is an inspiring quote, or a testimonial from a customer.
             Maybe it's just filling up space, or maybe people will actually
@@ -63,9 +63,12 @@
         </p>
         <p class="quote-footer"p>-Thor, God of Thunder</p>
     </div>
-    <div class="call-to-action">
+    <div class="call-to-action padded">
         <div class="call-to-action-box">
-            <div class="call-to-action-text"></div>
+            <div class="call-to-action-text">
+                <p>Call to action! It's time!</p>
+                <p>Sign up for our product by clicking that button right over there!</p>
+            </div>
             <button class="signup action">Sign up</button>
         </div>
     </div>

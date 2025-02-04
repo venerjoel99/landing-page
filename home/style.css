@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font: 'Roboto';
+    font-family: Roboto, sans-serif;
 }
 
 ul {
@@ -10,6 +10,7 @@ ul {
 .hero-container {
     background-color: #1F2937;
     margin: 0;
+    color: white;
 }
 
 .header {
@@ -18,6 +19,8 @@ ul {
 
 .footer {
     background-color: #1F2937;
+    color: white;
+    padding: 16px 0;
 }
 
 .quote-container {
@@ -35,4 +38,42 @@ button.signup {
 
 button.action {
     border: 1px solid white;
+}
+
+.padded {
+    padding: 0 40px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 0;
+}
+
+.header-link, .hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-container {
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.header-link-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
