@@ -41,7 +41,8 @@ button.action {
 }
 
 .padded {
-    padding: 0 40px;
+    padding-right: 160px;
+    padding-left: 80px;
 }
 
 .header-logo {
@@ -64,16 +65,17 @@ button.action {
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 16px;
 }
 
 .link-container {
     display: flex;
     padding: 0;
     margin: 0;
+    gap: 16px;
 }
 
 .header-link-container {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
