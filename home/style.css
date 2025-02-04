@@ -30,10 +30,10 @@ ul {
 button.signup {
     background-color: #3882F6;
     color: white;
-    font-family: 'Roboto';
-    border-radius: 8px;
-    padding: 4px 8px;
+    border-radius: 4px;
+    padding: 4px 16px;
     border: none;
+    font-size: 12px;
 }
 
 button.action {
@@ -78,4 +78,13 @@ button.action {
 .header-link-container {
     display: flex;
     align-items: center;
+}
+
+.image-placeholder {
+    width: 50%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
 }
